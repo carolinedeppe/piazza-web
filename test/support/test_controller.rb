@@ -1,4 +1,5 @@
-class TestController < ActionController::Base def index; end
+class TestController < ActionController::Base 
+  def index; end
   def new; end
   def create; end
   def show; end 

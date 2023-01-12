@@ -18,5 +18,6 @@ class ActiveSupport::TestCase
 end
 
 class ActionDispatch::IntegrationTest
+  include AuthenticationHelpers
   include RoutesHelpers
 end

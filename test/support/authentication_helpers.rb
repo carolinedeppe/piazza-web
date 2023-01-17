@@ -3,5 +3,9 @@ module AuthenticationHelpers
     post login_path, params: {
       user: { email: user.email, password: password }
     }
-  end 
+  end
+
+  def log_out
+    delete logout_path
+  end
 end
